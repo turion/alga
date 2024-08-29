@@ -145,6 +145,7 @@ test-suite main
                         Algebra.Graph.Test.AdjacencyMap,
                         Algebra.Graph.Test.Arbitrary,
                         Algebra.Graph.Test.Bipartite.AdjacencyMap,
+                        Algebra.Graph.Test.Dijkstra,
                         Algebra.Graph.Test.Example.Todo
                         Algebra.Graph.Test.Export,
                         Algebra.Graph.Test.Generic,

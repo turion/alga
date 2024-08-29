@@ -14,6 +14,7 @@ import Algebra.Graph.Test.NonEmpty.Graph
 import Algebra.Graph.Test.Relation
 import Algebra.Graph.Test.Relation.Symmetric
 import Algebra.Graph.Test.Undirected
+import Algebra.Graph.Test.Dijkstra (testDijkstra)
 import Data.Graph.Test.Typed
 
 import Control.Monad
@@ -48,3 +49,4 @@ main = do
     go "Todo"                             testTodo
     go "Typed"                            testTyped
     go "Undirected"                       testUndirected
+    go "Dijkstra"                         testDijkstra
